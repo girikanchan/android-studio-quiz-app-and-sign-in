@@ -29,7 +29,7 @@ public class ResultActivity extends AppCompatActivity {
         sb2.append("Wrong Answers: " + QuestionsActivity.wrong + "\n");
         StringBuffer sb3 = new StringBuffer();
         sb3.append("Final Score: " + QuestionsActivity.correct + "\n");
-        tv.setText(sb);
+        tv.setText(sb);  
         tv2.setText(sb2);
         tv3.setText(sb3);
 
